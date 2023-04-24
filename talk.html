@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/astyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <title></title>
   </head>
   <body>
@@ -20,6 +21,26 @@
               <h3>Email: glenseyer29@gmail.com</h3>
               <h3>Facebook: Richard Glen REYES</h3>
               <h3>Intagram: richardglenreyes</h3><br><br>
+              <script>
+              $(document).ready(function(){
+                $("#hide").click(function(){
+                  $("p").hide();
+                });
+                $("#show").click(function(){
+                  $("p").show();
+                });
+              });
+              </script>
+              </head>
+              <body>
+
+              <p>You can call me @ 09758858203/09995896141 or message me via email glenseyer29@gmail.com</p>
+
+              <button id="hide" class="btn-box btns">Hide</button>
+              <button id="show" class="btn-box btns">Show More Details</button><br><br>
+
+
+
 
         <div class="btn-box btns">
             <a href="index.html" class="btn">back</a>
@@ -28,9 +49,6 @@
         </div>
     </div>
       </section>
-      <div class="row">
-         <button onclick="window.print()" class="btn btn-secondary" style="margin-left:45%;">Print Record</button>
 
-       </div>
   </body>
 </html>
