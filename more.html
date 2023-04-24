@@ -1,6 +1,6 @@
 <html>
  <head>
-<link rel="stylesheet" href="css/astyle.css">
+<link rel="stylesheet" href="css/style.css">
  <title>An Ajax example</title>
  <script language = "javascript">
  var XMLHttpRequestObject = false;
@@ -26,14 +26,20 @@
 		  }       }
 		  </script>   </head>
 
-  <body>
+  <body><center><br><br><br>
   <H1>My Career Objective</H1>
   <form>
-  <input type = "button" value = "Open my goals"
-  onclick = "getData('data.txt', 'targetDiv')">
+    <div class="btn-box btns">
+  <button type = "button" class="btn"value = "Open my goals" onclick = "getData('data.txt', 'targetDiv')">Open my Goals</button></div>
   </form>
   <div id="targetDiv">
-  <p>Click here for more details.</p>
+  <h3>Click here for more details.</h3>
   </div>
+  <div class="btn-box btns">
+      <a href="about.html" class="btn">back</a>
+
+
+  </div>
+</center>
   </body>
   </html>
